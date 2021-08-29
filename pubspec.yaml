@@ -1,0 +1,37 @@
+name: firstbank
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^9.1.0
+  charts_flutter: ^0.11.0
+  dotted_decoration: ^2.0.0
+  intl: ^0.17.0
+  rflutter_alert: ^2.0.4
+  circular_countdown_timer: ^0.2.0
+  flutter_verification_code: ^1.0.4
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - images/
